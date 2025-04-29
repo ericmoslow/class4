@@ -19,14 +19,16 @@
 
 # Loop through tacos
 tacos = ["carnitas", "carne asada", "pollo", "pescado", "avocado", "fish"]
-index = 0
-loop do
-    if index == tacos.count
-        break
-    end
-    puts tacos[index]
-    index= index+1
-end
+# index = 0
+# loop do
+#     if index == tacos.count
+#         break
+#     end
+#     puts tacos[index]
+#     index= index+1
+# end
+
+#structure of every loop in every language
 
 for taco in tacos
     # taco =tacos[index]
