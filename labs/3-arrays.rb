@@ -16,3 +16,17 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_list = ["milk", "eggs", "bacon"]
+friend_list =["beer", "cookies", "apples"]
+
+combined_list = my_list+friend_list
+
+ordered_list = combined_list.sort
+
+puts "Buy #{ordered_list[0]}"
+puts "Buy #{ordered_list[1]}"
+puts "Buy #{ordered_list[2]}"
+puts "Buy #{ordered_list[3]}"
+puts "Buy #{ordered_list[4]}"
+puts "Buy #{ordered_list[5]}"
